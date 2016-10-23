@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
+
 n, k = int(input()), int(input())
-schoo = k / n
+schoo = k // n
 inbucket = k % n
-print(int(schoo), '\n', inbucket)
+print(schoo, '\n', inbucket)
